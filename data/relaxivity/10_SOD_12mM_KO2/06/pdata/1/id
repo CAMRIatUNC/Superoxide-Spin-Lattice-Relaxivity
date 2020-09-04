@@ -1,0 +1,12 @@
+##TITLE=Parameter List, ParaVision 6.0.1
+##JCAMPDX=4.24
+##DATATYPE=Parameter Values
+##ORIGIN=Bruker BioSpin MRI GmbH
+##OWNER=shihlab
+$$ 2020-07-08 21:55:28.966 -0400  shihlab@CZC642BNVQ
+$$ /opt/PV6.0.1/data/shihlab/20200708_211831_MM200708_12_1_2/6/pdata/1/id
+$$ process /opt/PV6.0.1/prog/bin/parxserver
+##$DATASET_KEY=( 65 )
+<2.16.756.5.5.100.8323328.83500.1594259728.2507>
+##END=
+$$ File finished by PARX at 2020-07-08 21:55:28.966 -0400

@@ -1,0 +1,141 @@
+##TITLE=Parameter List, ParaVision 6.0.1
+##JCAMPDX=4.24
+##DATATYPE=Parameter Values
+##ORIGIN=Bruker BioSpin MRI GmbH
+##OWNER=shihlab
+$$ 2020-05-14 13:35:54.710 -0400  shihlab@CZC642BNVQ
+$$ /opt/PV6.0.1/data/shihlab/20200514_130731_MM200514_2_1_1/7/pdata/1/visu_pars
+$$ process /opt/PV6.0.1/prog/bin/parxserver
+##$VisuVersion=3
+##$VisuUid=( 65 )
+<2.16.756.5.5.100.8323328.12791.1589477754.1>
+##$VisuCreator=( 65 )
+<ParaVision>
+##$VisuCreatorVersion=( 65 )
+<6.0.1>
+##$VisuCreationDate=<2020-05-14T13:35:54,709-0400>
+##$VisuInstanceModality=( 65 )
+<MR>
+$$ @vis= VisuVersion VisuUid VisuCreator VisuCreatorVersion VisuCreationDate
+##$VisuCoreFrameCount=8
+##$VisuCoreDim=1
+##$VisuCoreSize=( 1 )
+16
+$$ @vis= VisuInstanceModality VisuInstance VisuCoreFrameCount VisuCoreDim
+##$VisuCoreDimDesc=( 1 )
+spectroscopic
+##$VisuCoreExtent=( 1 )
+24.9785093984623
+##$VisuCoreUnits=( 1, 65 )
+<[ppm]>
+##$VisuCoreDataMin=( 8 )
+599.007538509587 341.876345155478 140.668722341514 31.185997622258 
+115.288869580836 332.019331219025 611.082111385876 647.920210757048
+$$ @vis= VisuCoreSize VisuCoreDimDesc VisuCoreExtent VisuCoreUnits
+##$VisuCoreDataMax=( 8 )
+28750.6085631381 15391.1922512391 3882.33914728247 2718.93385295735 
+8225.88054645777 19868.9321309868 31605.4701770061 32766.5
+##$VisuCoreDataOffs=( 8 )
+0 0 0 0 0 0 0 0
+##$VisuCoreDataSlope=( 8 )
+32.5990772201055 32.5990772201055 32.5990772201055 32.5990772201055 
+32.5990772201055 32.5990772201055 32.5990772201055 32.5990772201055
+##$VisuCoreFrameType=( 1 )
+MAGNITUDE_IMAGE
+$$ @vis= VisuCoreDataMin VisuCoreDataMax VisuCoreDataOffs VisuCoreDataSlope
+##$VisuCoreWordType=_16BIT_SGN_INT
+##$VisuCoreByteOrder=littleEndian
+$$ @vis= VisuCoreFrameType VisuCore VisuCoreWordType VisuCoreByteOrder
+##$VisuFGOrderDescDim=1
+##$VisuFGOrderDesc=( 1 )
+(8, <FG_CYCLE>, <>, 0, 0)
+##$VisuSubjectName=( 65 )
+<MM200514_2>
+$$ @vis= VisuPixel VisuFGOrderDescDim VisuFGOrderDesc VisuFrameOrderDesc
+##$VisuSubjectId=( 65 )
+<MM200514_2>
+##$VisuSubjectUid=( 65 )
+<2.16.756.5.5.100.8323328.190310.1589476051.200>
+##$VisuSubjectInstanceCreationDate=(1589476051, 83, -240)
+$$ @vis= VisuSubjectName VisuSubjectId VisuSubjectUid
+##$VisuSubjectBirthDate=( 9 )
+<20200514>
+##$VisuSubjectSex=UNKNOWN
+##$VisuSubjectType=Quadruped
+$$ @vis= VisuSubjectInstanceCreationDate VisuSubjectBirthDate VisuSubjectSex
+##$VisuStudyUid=( 65 )
+<2.16.756.5.5.100.8323328.190310.1589476051.201>
+##$VisuStudyDate=<2020-05-14T13:07:31,083-0400>
+##$VisuStudyId=( 65 )
+<ph=12.15>
+##$VisuStudyNumber=1
+$$ @vis= VisuSubjectType VisuSubject VisuStudyUid VisuStudyDate VisuStudyId
+##$VisuSubjectWeight=0.001
+##$VisuStudyReferringPhysician=( 65 )
+<shihlab>
+##$VisuStudyDescription=( 2048 )
+<\
+>
+$$ @vis= VisuStudyNumber VisuSubjectWeight VisuStudyReferringPhysician
+##$VisuExperimentNumber=7
+##$VisuProcessingNumber=1
+$$ @vis= VisuStudyDescription VisuStudy VisuExperimentNumber
+##$VisuSeriesDate=<2020-05-14T13:35:54,709-0400>
+##$VisuSubjectPosition=Head_Supine
+##$VisuSeriesTypeId=( 65 )
+<ACQ_USER_PVM>
+$$ @vis= VisuProcessingNumber VisuSeriesDate VisuSubjectPosition
+$$ @vis= VisuSeriesTypeId VisuSeries VisuCoilReceive VisuCoilTransmit
+##$VisuManufacturer=( 65 )
+<Bruker BioSpin MRI GmbH>
+##$VisuAcqSoftwareVersion=( 65 )
+<6.0.1>
+##$VisuInstitution=( 65 )
+<Univ. of North Carolina>
+$$ @vis= VisuContrastAgent VisuManufacturer VisuAcqSoftwareVersion
+##$VisuStation=( 65 )
+<Biospec 94/30>
+##$VisuSystemOrderNumber=( 65 )
+<BT001005>
+##$VisuAcqDate=<2020-05-14T13:34:03,009-0400>
+$$ @vis= VisuInstitution VisuStation VisuSystemOrderNumber VisuEquipment
+##$VisuAcqEchoTrainLength=1
+##$VisuAcqSequenceName=( 40 )
+<User:invSpect>
+##$VisuAcqNumberOfAverages=1
+$$ @vis= VisuAcqDate VisuAcqEchoTrainLength VisuAcqSequenceName
+##$VisuAcqImagingFrequency=400.344145460322
+##$VisuAcqImagedNucleus=( 8 )
+<1H>
+##$VisuAcqRepetitionTime=( 1 )
+11200
+$$ @vis= VisuAcqNumberOfAverages VisuAcqImagingFrequency VisuAcqImagedNucleus
+##$VisuAcqFlipAngle=90
+##$VisuAcqEchoTime=( 1 )
+0
+##$VisuAcquisitionProtocol=( 65 )
+<invSpect>
+$$ @vis= VisuAcqRepetitionTime VisuAcqFlipAngle VisuAcqEchoTime
+##$VisuAcqScanTime=120000
+##$VisuAcqEchoSequenceType=Both
+##$VisuAcqSpinsVelocityEncoded=No
+$$ @vis= VisuAcquisitionProtocol VisuAcqScanTime VisuAcqEchoSequenceType
+##$VisuAcqHasTimeOfFlightContrast=No
+##$VisuAcqIsEpiSequence=No
+$$ @vis= VisuAcqSpinsVelocityEncoded VisuAcqHasTimeOfFlightContrast
+##$VisuAcqSpectralSuppression=NoSuppression
+##$VisuAcqKSpaceTraversal=RectilinearTraversal
+$$ @vis= VisuAcqIsEpiSequence VisuAcqSpectralSuppression
+##$VisuAcqKSpaceTrajectoryCnt=1
+##$VisuAcqFlowCompensation=FlowNone
+$$ @vis= VisuAcqKSpaceTraversal VisuAcqKSpaceTrajectoryCnt
+##$VisuAcqSpoiling=GradientSpoiled
+##$VisuAcqMagnetizationTransfer=No
+##$VisuAcqBloodSignalNulling=No
+$$ @vis= VisuAcqFlowCompensation VisuAcqSpoiling VisuAcqMagnetizationTransfer
+##$VisuCardiacSynchUsed=No
+##$VisuRespSynchUsed=No
+$$ @vis= VisuAcqBloodSignalNulling VisuCardiacSynchUsed VisuRespSynchUsed
+$$ @vis= VisuAcquisition VisuMpi VisuDepricated Visu
+##END=
+$$ File finished by PARX at 2020-05-14 13:35:54.711 -0400

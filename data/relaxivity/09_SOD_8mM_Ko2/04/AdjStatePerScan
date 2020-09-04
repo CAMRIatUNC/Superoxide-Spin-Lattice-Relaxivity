@@ -1,0 +1,25 @@
+##TITLE=Parameter List, ParaVision 6.0.1
+##JCAMPDX=4.24
+##DATATYPE=Parameter Values
+##ORIGIN=Bruker BioSpin MRI GmbH
+##OWNER=shihlab
+$$ 2020-07-08 20:26:11.466 -0400  shihlab@CZC642BNVQ
+$$ /opt/PV6.0.1/data/shihlab/20200708_200539_MM200708_8_1_1/4/AdjStatePerScan
+$$ process /opt/PV6.0.1/prog/mod/pipe
+##$AdjScanStateCompleted=Yes
+##$AdjScanStateAdjName=( 1, 128 )
+<RCVR_Standard>
+##$AdjScanStateCategory=( 1 )
+RCVR
+##$AdjScanStateTime=( 1 )
+<2020-07-08T20:25:39,284-0400>
+##$AdjScanStateExpno=( 1 )
+4
+##$AdjScanStateState=( 1 )
+adj_successful
+##$AdjScanStateResultId=( 1, 65 )
+<2.16.756.5.5.100.8323328.42149.1594254339.6>
+##$AdjScanStateMethod=( 1, 128 )
+<User:invSpect>
+##END=
+$$ File finished by PARX at 2020-07-08 20:26:11.466 -0400

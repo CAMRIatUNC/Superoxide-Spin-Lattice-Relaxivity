@@ -1,0 +1,113 @@
+CONFIGURATION INFORMATION
+=========================
+
+Path         : /opt/PV6.0.1/conf/instr/spect/uxnmr.info
+Date         : Thu Mar 14 11:12:39 2019
+Release      : TopSpin Acquisition Version 3.1PV beta-pl1
+Installed in : /opt/PV6.0.1
+Host         : CZC642BNVQ
+OS           : CentOS Linux release 7.2.1511 (Core) 
+CPU          : Intel(R) Xeon(R) CPU E5-1620 v3 @ 3.50GHz (8 cores at 1200 MHz with Hyperthreading)
+User         : nmrsu (NMR Super User)
+Description  : Biospec 94/30
+Location     : Univ. of North Carolina
+System       : Avance-AV NMR spectrometer
+1H-frequency : 400.32 MHz
+Order Number : BT001005
+Configured in: /opt/PV6.0.1/conf/instr/spect
+
+#--------------------
+#  FCU configuration:
+#--------------------
+board # 1 :
+	MEMORY 0x1ff000	(=511 k Words)
+	PAL-Version 0x104 = new version (EC level 07 or more)
+board # 2 :
+	MEMORY 0x1ff000	(=511 k Words)
+	PAL-Version 0x104 = new version (EC level 07 or more)
+
+DRU: AQS DRU-E Z102520/00509 ECL 03.00
+- TCP/IP address = 149.236.99.89
+- Firmware Version = 151014
+- DRU controls AQS-Rack and HPPR/2
+DRU: AQS DRU-E Z102520/00253 ECL 03.00
+- TCP/IP address = 149.236.99.88
+- Firmware Version = 151014
+DRU: AQS DRU-E Z102520/00507 ECL 03.00
+- TCP/IP address = 149.236.99.87
+- Firmware Version = 151014
+- DRU controls AQS-Rack and HPPR/2
+DRU: AQS DRU-E Z102520/00508 ECL 03.00
+- TCP/IP address = 149.236.99.86
+- Firmware Version = 151014
+
+Gcu: GCU3_SlowIF
+
+AQS: connected to 149.236.99.89:/dev/tty10
+  _Slot_ SBSB _____________________Board_____________________
+  Number Addr Type HW-VS FW-VS ID  ECL Name   Description
+  -----------------------------------------------------------
+     2   0x10 0x72   0x3    AW  R  3.0 REC-1  AQS RXAD400 Z102116/470 ECL 03.00
+     3   0x34  0x2   0x1        X  4.0 REF-1  REF-400 Reference Board for AQS Receiver
+     4   0x24 0x10   0x4    BH  S  6.2 SGU-1  AQS SGU400 Z003642/04205 ECL 6.2
+     6   0x11 0x72   0x3    AW  R  3.0 REC-2  AQS RXAD400 Z102116/346 ECL 03.00
+     7   0x25 0x10   0x4    BH  S  6.2 SGU-2  AQS SGU400 Z003642/04242 ECL 6.2
+    10   0x1d 0xcb     0    --  N  1.0 PUL-1  AQS PULSE SPLITTER Z104431/00027 ECL 01.00
+    --   0x20 0xc6     0        B  1.2 AQS/2  AQS/2 chassis
+     1   0x20  0x7     0        B      MASTER AQS Rack Master
+
+AQS2M-1: connected to 149.236.99.87:/dev/tty10
+  _Slot_ SBSB _____________________Board_____________________
+  Number Addr Type HW-VS FW-VS ID  ECL Name   Description
+  -----------------------------------------------------------
+     2   0x10 0x72   0x3    AW  R  3.0 REC-3  AQS RXAD400 Z102116/345 ECL 03.00
+     4   0x11 0x72   0x3    AW  R  3.0 REC-4  AQS RXAD400 Z102116/475 ECL 03.00
+    16   0x1c 0xca   0x1    --  M  1.0 RFS-1  AQS RF SPLITTER Z104432/00013 ECL 01.00
+    --   0x20 0xce     0        B  1.0 AQS/2-M AQS/2M Chassis
+     1   0x20  0x7     0        B      MASTER AQS Rack Master
+
+
+Router: none installed (use direct connection between SGU and BLA)
+
+Amplifier Control Board:  connected to spect:/dev/tty20
+
+
+Amplifiers (ACB configuration):
+  RO  Amplifier  Module  Nucleus  Power/W  Switchbox Name PN/SN/FW
+   1      1         1        B     1000    N  (V=ff) BLA 1000-I W1345086/67/20071205
+   1      1         2        B      300    N  (-""-) BLA 1000-I W1345086/67/20071205
+   2      2         1        B     1000    N  (V=ff) BLA 1000-I W1345086/50/20071205
+   2      2         2        B      300    N  (-""-) BLA 1000-I W1345086/50/20071205
+
+
+
+- Type: TOSI
+- absolute lockshift frequency = changed from 10485760 Hz to 11451711 Hz Hz
+
+Preamplifiers :
+HPPR: - HPPR/2 preamplifier connected to 149.236.99.89:/dev/tty10
+    Type      : HPPR/2
+    Controller: Application firmware = AQ
+                15 LEDs for tuning, 15 LEDs for matching
+    Module  1 : HPHP XBB31P
+                 PN=Z003877, SN=00038 from 20060720
+    Module  2 : HPLNA 1HMRI (virtual 50 Ohm reference: 100.1%/0.1deg, reflection meter)
+                 PN=Z105207, SN=00020 from 20060825
+    Module  3 : HPLNA 1HMRI (virtual 50 Ohm reference: 99.6%/0.5deg, reflection meter)
+                 PN=Z105207, SN=00008 from 20101221
+
+
+Frequency generation:
+- F1: for SGU
+- F2: for SGU
+
+
+Preemphasis Unit: device connected to spect:/dev/tty09
+  for shielded gradients
+
+
+LO cable connections (assumed)
+--------------------------------------------------------------------
+SGU1 -> Rf-Splitter input 1 (-> REC1)
+SGU2 -> Rf-Splitter input 2 (-> REC1-4)
+
